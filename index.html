@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @layer base {
+        html {
+          font-family: "Noto+Sans", sans-serif;
+        }
+      }
+    </style>
+    <title>Ajid | Portfolio</title>
+  </head>
+  <body>
+    <header class="px-14">
+      <nav class="flex justify-between py-10 items-center">
+        <figure>
+          <figcaption class="text-4xl text-[#1e8882] cursor-pointer">
+            Ajid Jakaria
+          </figcaption>
+        </figure>
+        <ul class="flex gap-4 text-lg font-semibold">
+          <a href="#home"> <li class="hover:underline hover:decoration-2">
+            Home
+          </li></a>
+          <a href="#about"> <li class="hover:underline hover:decoration-2 ">
+            About
+          </li></a>
+          <a href="#projects"><li class="hover:underline hover:decoration-2 ">
+            Projects
+          </li></a>
+          <a href="#contact"> <li class="hover:underline hover:decoration-2">
+            Contact
+          </li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="flex flex-row justify-center w-full h-screen mt-32 pl-16">
+        <div class="w-1/2 flex gap-y-2 flex-col mt-10">
+          <h1 class="font-semibold text-4xl">Hi, iam</h1>
+          <h1 class="font-semibold text-4xl">Ajid Jakaria</h1>
+          <p class="text-base text-gray-900">Creative designer</p>
+          <div class="flex gap-3 justify-start items-center">
+            <button class="p-3 bg-[#1e8882] rounded-md text-white text-center">
+              <a target="_blank" href="./public/CV_Ajid jakaria.pdf" download
+                >Download CV</a
+              >
+            </button>
+            <button
+              class="p-3 border-2 border-[#1e8882] rounded-md text-[#1e8882] text-center"
+            >
+              Contact me
+            </button>
+          </div>
+        </div>
+        <div>
+          <img class="h-2/5" src="./assets/img/hand.svg" alt="hero" />
+        </div>
+      </section>
+      <section id="about" class="w-full h-screen text-black">
+        <div
+          class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"
+        >
+          <div class="flex justify-between">
+            <div class="pb-4 block w-1/2">
+              <p class="text-4xl font-bold">About Me</p>
+              <p class="text-xl mt-10">
+                Saya adalah seorang desainer yang kreatif dan inovatif dengan
+                pengalaman selama 2 tahun di bidang desain. Saya memiliki
+                kemampuan dalam menghasilkan desain visual yang menarik dan
+                dapat berkomunikasi dengan baik dengan klien dan tim.
+              </p>
+              <div class="flex gap -x- 6 mt-2">
+                <a href=""><img src="./assets/img/Instagram.svg" alt="" /></a>
+                <a href=""><img src="./assets/img/LinkedIn.svg" alt="" /></a>
+                <a href="https://wa.me/qr/ASVOH3BW63TDE1"><img src="./assets/img/WhatsApp.svg" alt="" /></a>
+              </div>
+            </div>
+            <div class="">
+              <img
+                src="./assets/img/fotoganteng.jpeg"
+                alt=""
+                class="w-80 h-80 rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="w-full h-screen text-black">
+        <div
+          class="max-w-screen-lg p-4 mx-auto flex flex-col justify-start w-full h-full"
+        >
+          <div class="flex">
+            <div class="pb-4 block w-full mt-8">
+              <p class="text-4xl font-bold">Latest</p>
+              <p class="text-4xl font-bold">Projects</p>
+              <section class="flex gap-x-5 w-full mt-5">
+                <div class="h-auto w-auto">
+                  <img
+                    class="h-60 w-90"
+                    src="./assets/img/Rectangle 5.svg"
+                    alt=""
+                  />
+                  <p>
+                    04 April
+                    <br />2020
+                  </p>
+                </div>
+                <div class="h-auto w-auto">
+                  <img
+                    class="h-60 w-90"
+                    src="./assets/img/Rectangle 7.svg"
+                    alt=""
+                  />
+                  <p>
+                    19 April
+                    <br />2020
+                  </p>
+                </div>
+                <div class="h-auto w-auto">
+                  <img
+                    class="h-60 w-90"
+                    src="./assets/img/Rectangle 8.svg"
+                    alt=""
+                  />
+                  <p>
+                    01 Mei
+                    <br />2021
+                  </p>
+                </div>
+                <div class="h-auto w-auto">
+                  <img
+                    class="h-60 w-90"
+                    src="./assets/img/Rectangle 9.svg"
+                    alt=""
+                  />
+                  <p>
+                    04 June
+                    <br />2021
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="bg-[#1e8882] p-14 flex gap-9 items-center justify-start">
+      <div class="text-white text-5xl font-bold">
+        <h1>Get in <br />Touch</h1>
+      </div>
+      <div class="text-white text-xl">
+        <p>For Business inquire please send email To</p>
+
+        <p class="inline underline">Ajidyahya1403@gmail.com</p>
+        <div class="flex gap -x- 6 mt-2">
+          <img src="./assets/img/igfooter.svg" alt="" />
+          <img src="./assets/img/linkedfooter.svg" alt="" />
+          <a href="https://wa.me/qr/ASVOH3BW63TDE1"><img src="./assets/img/wafooter.svg" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
